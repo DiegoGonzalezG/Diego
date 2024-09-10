@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/*contenedor main*/
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
+    height: 100vh; 
+    padding: 2rem;
+    text-align: center;
+    color: white; 
+}
+
+/*contenedor de imagen*/
+.image-container {
+    width: 108%;
+    height: 100%; 
+    overflow: hidden; 
+}
+
+/*imagen*/
+.welcome-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*título principal*/
+.main-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: blanchedalmond;
+}
+
+/*párrafo*/
+.main-content p {
+    font-size: 1.2rem;
+    color: grey;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+/*pantalla*/
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 0.5rem; 
+    }
+}
+
+/*Recuerda comer algo :)*/
